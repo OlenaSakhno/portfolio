@@ -1,7 +1,8 @@
 #welcome-section{
     padding-top: 50px;
+    padding-bottom: 20px;
   background-color: #2d3561;
-  height: 45vh;
+  height: auto;
   }
   #welcome-section H1{
     padding-TOP: 3em ;
@@ -9,12 +10,20 @@
    }
   #projects{
     background-color: #404b69;
-      padding-top: 50px;
+    padding-top: 50px;
     padding-bottom: 50px;
   }
   h1, h2, h5{
     color: #ffb961;
     text-align: center;
+  }
+  h2{
+    padding-bottom: 20px;
+  }
+  #certificates{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #6072a3;
   }
   
   .project-tile{
@@ -23,7 +32,7 @@
     padding: 0;
     margin-right: 10px;
   }
-  #project-title{
+  .project-title{
     background-color: #ffb961;
     color: #2d3561;
     font-size: 28px;
@@ -32,12 +41,18 @@
     text-align: center;
     margin-bottom: 0; 
   }
-  #project-img{
+  .project-img{
     width:100%;
     height: auto;
   }
+  .certif-img{
+    width:100%;
+    height: 100%;
+  }
   #contact{
-    background-color: #c05c7e;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #8096d3;
     text-align: center;
     color: #2d3561;
   }
